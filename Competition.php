@@ -1,14 +1,14 @@
 <?php
 
-require_once './queryCreator.php';
+require_once './QueryCreator.php';
 require_once './Team.php'; 
 require_once './TeamController.php'; 
 
-class Competition
+class Competition extends modelInstance
 {
-	private string $Name = 'somePropertyOfClass';
-	private string $Age = 'somePropertyOfClass';
-	private string $Postalcode = 'somePropertyOfClass';
+	private string $Name;
+	private string $Age;
+	private string $Postalcode;
 
 
 	/**
