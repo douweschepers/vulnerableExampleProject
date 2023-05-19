@@ -1,9 +1,5 @@
 <?php
 
-require_once './QueryCreator.php';
-require_once './Team.php'; 
-require_once './TeamController.php'; 
-require_once './ModelInstanceCollection.php';
 class QueryCreator
 {
     public function constructInsertQuery(ModelInstance $modelInstance): string

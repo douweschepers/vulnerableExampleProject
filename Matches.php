@@ -1,8 +1,6 @@
 <?php
 
-require_once './QueryCreator.php';
-require_once './Team.php'; 
-require_once './TeamController.php'; 
+require_once './ModelInstance.php';
 
 class Matches extends modelInstance
 {

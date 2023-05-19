@@ -21,7 +21,6 @@ class TeamController
 		 * Start of potential vulnerability because of user input
 		 */
 		$name = $_GET['name'];
-
 		  /**
 		 * SQLI1
 		 * User input being stored in a object
@@ -90,6 +89,3 @@ class TeamController
         return $result;
     }
 }
-
-$clas = new TeamController();
-$clas->saveTeam();
